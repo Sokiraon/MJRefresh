@@ -4,6 +4,7 @@
 const CGFloat MJRefreshLabelLeftInset = 25;
 const CGFloat MJRefreshHeaderHeight = 54.0;
 const CGFloat MJRefreshFooterHeight = 44.0;
+const CGFloat MJRefreshLeadWidth = 60.0;
 const CGFloat MJRefreshTrailWidth = 60.0;
 const CGFloat MJRefreshFastAnimationDuration = 0.25;
 const CGFloat MJRefreshSlowAnimationDuration = 0.4;
@@ -22,6 +23,9 @@ NSString *const MJRefreshHeaderRefreshingText = @"MJRefreshHeaderRefreshingText"
 
 NSString *const MJRefreshTrailerIdleText = @"MJRefreshTrailerIdleText";
 NSString *const MJRefreshTrailerPullingText = @"MJRefreshTrailerPullingText";
+
+NSString *const MJRefreshLeaderIdleText = @"MJRefreshLeaderIdleText";
+NSString *const MJRefreshLeaderPullingText = @"MJRefreshLeaderPullingText";
 
 NSString *const MJRefreshAutoFooterIdleText = @"MJRefreshAutoFooterIdleText";
 NSString *const MJRefreshAutoFooterRefreshingText = @"MJRefreshAutoFooterRefreshingText";
